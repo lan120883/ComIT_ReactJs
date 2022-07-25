@@ -1,0 +1,43 @@
+h1 {
+    color: red;
+  }
+  p {
+    color: green;
+  }
+  p, li {
+    color: green;
+}
+  li {
+    list-style-type:square;
+  }
+span.special,
+  li.special {
+    color: orange;
+    font-weight:bold;
+  }
+  li em {
+    color: rebeccapurple;
+  }
+  h1 + p {
+    font-size: 200%;
+  }
+  p + p {
+    font-size: 200%;
+  }
+  a:link {
+    color: pink;
+  }
+  
+  a:hover {
+    color: green;
+    text-decoration:none;
+  }
+  
+  body h1 + p .special {
+    color: pink;
+    background-color: white;
+    padding: 5px;
+  }
+  
+
+  

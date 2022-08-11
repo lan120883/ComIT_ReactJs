@@ -1,0 +1,158 @@
+
+/* General setup */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;    
+  }
+
+  
+  /* Layout */
+  
+  section {     
+    text: indentation 20%;
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+
+  }
+  
+  /* WRITE YOUR CODE BELOW HERE */
+  /* Fonts: */
+  @font-face {
+    font-family: 'MyWebFont';
+    src: url(./fonts/Lovato\ W00\ Light/);
+    src: url(./fonts/JosefinSlab-Bold.ttf);
+    font-weight: normal;
+    font-style: normal;
+  }
+  html {
+    font-family: stintUltraExpanded-Regular, serif;
+    font-size: 10px;
+  }
+
+  h1, h2 {
+    font-family: Merriweather-Light; sans-serif;
+    letter-spacing: 2px;
+  }
+  h1 {
+    font-size: 5rem;
+    text-align:center;
+  }
+  h2 {
+    font-size: 3.2rem;
+  }
+  section h2 + P {
+    text-indent: 20px;
+  }
+  p, li {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    word-spacing: 3px;
+  }
+ 
+  /* General text styling: */
+
+  header {
+    width:100%;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 1px ;
+  }
+
+  /* Link: */
+  a {
+    outline: none;
+  }
+
+  a[href*="http"] {
+    padding-right: 19px;
+    background: url(external-link-52.png) no-repeat 100% 0;
+    background-size: 16px 16px;
+  }
+
+  a:link, a:visited {
+    color: #a66;
+  }
+
+  a:focus, a:hover {
+    color:blue; 
+    text-decoration: none
+  }
+
+  a:active {
+    color: transparent;
+    text-shadow: 0px 0px 1px #f00,
+                 0px 0px 2px #f00,
+                 0px 0px 3px black,
+                 0px 0px 4px black;
+  }
+  
+  /* List: */
+  ul, ol {
+    margin: 1.6rem 0;
+  }
+
+  ul {
+    list-style-type: square;
+  }
+
+  ol {
+    list-style-type: lower-latin;
+  }
+
+  /*nav menu */
+  nav ul {
+    padding-left: 0;
+    margin-top: 0.8rem;
+  }
+
+  nav li a {
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    line-height: 3;
+    text-align: center;
+    font-size: 2.5rem;
+    border: 1px solid #a66;
+  }
+
+  nav li a:focus, nav li a:hover {
+    color: white;
+    background: #a66;
+  }
+
+  nav li a:active {
+    color: white;
+    background: black;
+  }
